@@ -18,7 +18,7 @@ test.describe("FakeStore Authentication API Tests", () => {
   // POST - Authentication
   // ---------------------------------------------------------
 
-  test("POST - Successful login @master @sanity @api", async ({ request }) => {
+  test("POST - Successful login @master @sanity @apit", async ({ request }) => {
     
     const response = await request.post(`${BASE_URL}${Routes.AUTH_LOGIN}`, {
       data: { 

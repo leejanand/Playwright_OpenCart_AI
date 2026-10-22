@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:api": "playwright test --grep @api", 
+    "test:apit": "playwright test --grep @apit",
     "test:web": "playwright test --grep @web", 
     "test:master": "playwright test --grep @master", 
     "test:sanity": "playwright test --grep @sanity",

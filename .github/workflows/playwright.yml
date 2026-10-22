@@ -50,32 +50,10 @@ jobs:
         run: npx playwright install --with-deps
       - name: ⚙️ Create .env File
         run: Copy-Item .env.example .env
-      - name: 🔎 Diagnose FakeStore API
-        shell: pwsh
-        run: |
-          $url = "https://fakestoreapi.com/users?sort=asc"
 
-          try {
-            $response = Invoke-WebRequest `
-              -Uri $url `
-              -Method Get `
-              -Headers @{ Accept = "application/json" } `
-              -TimeoutSec 20
-
-            Write-Host "Status: $([int]$response.StatusCode)"
-            Write-Host "Response: $($response.Content)"
-          }
-          catch {
-            if ($_.Exception.Response) {
-              Write-Host "HTTP request failed."
-              Write-Host "Status: $([int]$_.Exception.Response.StatusCode)"
-            }
-
-            Write-Host "Error: $($_.Exception.Message)"
-          }
       - name: 🧪 Run Playwright Tests
         run: |
-          $suite = "${{ github.event.inputs.test_suite || 'test:api' }}"
+          $suite = "${{ github.event.inputs.test_suite || 'test:apit' }}"
           $browser = "${{ github.event.inputs.browser || 'chromium' }}"
           $mode = "${{ github.event.inputs.mode || 'headless' }}"
           $tag = $suite -replace 'test:', ''
