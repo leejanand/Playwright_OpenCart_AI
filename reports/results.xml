@@ -1,0 +1,178 @@
+<testsuites id="" name="" tests="49" failures="0" skipped="0" errors="0" time="125.694624">
+<testsuite name="api\api-crud-workflows.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="3" failures="0" skipped="0" time="5.926" errors="0">
+<testcase name="FakeStore API CRUD Workflows › Product create-update-delete workflow @master @regression @end-to-end @api" classname="api\api-crud-workflows.spec.ts" time="2.339">
+</testcase>
+<testcase name="FakeStore API CRUD Workflows › User create-update-delete workflow @master @regression @end-to-end @api" classname="api\api-crud-workflows.spec.ts" time="2.007">
+</testcase>
+<testcase name="FakeStore API CRUD Workflows › Cart create-update-delete workflow @master @regression @end-to-end @api" classname="api\api-crud-workflows.spec.ts" time="1.58">
+</testcase>
+</testsuite>
+<testsuite name="api\api-schemas.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="3" failures="0" skipped="0" time="1.432" errors="0">
+<testcase name="FakeStore API Schema Tests › GET - Validate product response schema @master @regression @api" classname="api\api-schemas.spec.ts" time="0.426">
+</testcase>
+<testcase name="FakeStore API Schema Tests › GET - Validate user response schema @master @regression @api" classname="api\api-schemas.spec.ts" time="0.409">
+</testcase>
+<testcase name="FakeStore API Schema Tests › GET - Validate cart response schema @master @regression @api" classname="api\api-schemas.spec.ts" time="0.597">
+</testcase>
+</testsuite>
+<testsuite name="api\authentication-api.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="2" failures="0" skipped="0" time="0.984" errors="0">
+<testcase name="FakeStore Authentication API Tests › POST - Successful login @master @sanity @api" classname="api\authentication-api.spec.ts" time="0.515">
+</testcase>
+<testcase name="FakeStore Authentication API Tests › POST - Invalid login @master @regression @api" classname="api\authentication-api.spec.ts" time="0.469">
+</testcase>
+</testsuite>
+<testsuite name="api\carts-api.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="10" failures="0" skipped="0" time="3.687" errors="0">
+<testcase name="FakeStore Carts API Tests › GET - All carts @master @sanity @api" classname="api\carts-api.spec.ts" time="0.393">
+</testcase>
+<testcase name="FakeStore Carts API Tests › GET - Cart by ID @master @sanity @api" classname="api\carts-api.spec.ts" time="0.41">
+</testcase>
+<testcase name="FakeStore Carts API Tests › GET - Carts by date range @master @regression @api" classname="api\carts-api.spec.ts" time="0.404">
+</testcase>
+<testcase name="FakeStore Carts API Tests › GET - Carts by user @master @sanity @api" classname="api\carts-api.spec.ts" time="0.381">
+</testcase>
+<testcase name="FakeStore Carts API Tests › GET - Carts with limit @master @sanity @api" classname="api\carts-api.spec.ts" time="0.401">
+</testcase>
+<testcase name="FakeStore Carts API Tests › GET - Carts sorted ascending @master @regression @api" classname="api\carts-api.spec.ts" time="0.382">
+</testcase>
+<testcase name="FakeStore Carts API Tests › GET - Carts sorted descending @master @regression @api" classname="api\carts-api.spec.ts" time="0.375">
+</testcase>
+<testcase name="FakeStore Carts API Tests › POST - Create cart @master @regression @api" classname="api\carts-api.spec.ts" time="0.275">
+</testcase>
+<testcase name="FakeStore Carts API Tests › PUT - Update cart @master @regression @api" classname="api\carts-api.spec.ts" time="0.27">
+</testcase>
+<testcase name="FakeStore Carts API Tests › DELETE - Cart @master @regression @api" classname="api\carts-api.spec.ts" time="0.396">
+</testcase>
+</testsuite>
+<testsuite name="api\products-api.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="10" failures="0" skipped="0" time="3.114" errors="0">
+<testcase name="FakeStore Products API Tests › GET - All products @master @sanity @api" classname="api\products-api.spec.ts" time="0.496">
+</testcase>
+<testcase name="FakeStore Products API Tests › GET - Product by ID @master @sanity @api" classname="api\products-api.spec.ts" time="0.313">
+</testcase>
+<testcase name="FakeStore Products API Tests › GET - Products with limit @master @sanity @api" classname="api\products-api.spec.ts" time="0.282">
+</testcase>
+<testcase name="FakeStore Products API Tests › GET - Products sorted ascending @master @regression @api" classname="api\products-api.spec.ts" time="0.301">
+</testcase>
+<testcase name="FakeStore Products API Tests › GET - Products sorted descending @master @regression @api" classname="api\products-api.spec.ts" time="0.317">
+</testcase>
+<testcase name="FakeStore Products API Tests › GET - All product categories @master @sanity @api" classname="api\products-api.spec.ts" time="0.278">
+</testcase>
+<testcase name="FakeStore Products API Tests › GET - Products by category @master @sanity @api" classname="api\products-api.spec.ts" time="0.283">
+</testcase>
+<testcase name="FakeStore Products API Tests › POST - Create product @master @regression @api" classname="api\products-api.spec.ts" time="0.277">
+</testcase>
+<testcase name="FakeStore Products API Tests › PUT - Update product @master @regression @api" classname="api\products-api.spec.ts" time="0.281">
+</testcase>
+<testcase name="FakeStore Products API Tests › DELETE - Product @master @regression @api" classname="api\products-api.spec.ts" time="0.286">
+</testcase>
+</testsuite>
+<testsuite name="api\users-api.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="8" failures="0" skipped="0" time="3.023" errors="0">
+<testcase name="FakeStore Users API Tests › GET - All users @master @sanity @api" classname="api\users-api.spec.ts" time="0.388">
+</testcase>
+<testcase name="FakeStore Users API Tests › GET - User by ID @master @sanity @api" classname="api\users-api.spec.ts" time="0.386">
+</testcase>
+<testcase name="FakeStore Users API Tests › GET - Users with limit @master @sanity @api" classname="api\users-api.spec.ts" time="0.369">
+</testcase>
+<testcase name="FakeStore Users API Tests › GET - Users sorted ascending @master @regression @api" classname="api\users-api.spec.ts" time="0.368">
+</testcase>
+<testcase name="FakeStore Users API Tests › GET - Users sorted descending @master @regression @api" classname="api\users-api.spec.ts" time="0.382">
+</testcase>
+<testcase name="FakeStore Users API Tests › POST - Create user @master @regression @api" classname="api\users-api.spec.ts" time="0.439">
+</testcase>
+<testcase name="FakeStore Users API Tests › PUT - Update user @master @regression @api" classname="api\users-api.spec.ts" time="0.318">
+</testcase>
+<testcase name="FakeStore Users API Tests › DELETE - User @master @regression @api" classname="api\users-api.spec.ts" time="0.373">
+</testcase>
+</testsuite>
+<testsuite name="db\customer-registration-db.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="24.732" errors="0">
+<testcase name="Register and verify customer in Admin and MySQL @master @regression @end-to-end @db" classname="db\customer-registration-db.spec.ts" time="24.732">
+</testcase>
+</testsuite>
+<testsuite name="web\add-product-to-cart.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="21.724" errors="0">
+<testcase name="Add a product to the shopping cart @master @sanity @regression @web" classname="web\add-product-to-cart.spec.ts" time="21.724">
+<system-out>
+<![CDATA[✅ Product was added to the shopping cart.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\customer-logout.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.771" errors="0">
+<testcase name="Customer logout @master @sanity @regression @web" classname="web\customer-logout.spec.ts" time="12.771">
+<system-out>
+<![CDATA[✅ Customer logout completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\customer-registration.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.063" errors="0">
+<testcase name="Customer registration @master @sanity @regression @web" classname="web\customer-registration.spec.ts" time="13.063">
+<system-out>
+<![CDATA[✅ Customer registration completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\data-driven-login.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="5" failures="0" skipped="0" time="42.38" errors="0">
+<testcase name="Valid login (row 1) @master @regression @datadriven @web" classname="web\data-driven-login.spec.ts" time="9.367">
+<system-out>
+<![CDATA[✅ Data-driven login case completed: Valid login.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login (row 2) @master @regression @datadriven @web" classname="web\data-driven-login.spec.ts" time="6.646">
+<system-out>
+<![CDATA[✅ Data-driven login case completed: Invalid login.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login (row 3) @master @regression @datadriven @web" classname="web\data-driven-login.spec.ts" time="9.032">
+<system-out>
+<![CDATA[✅ Data-driven login case completed: Invalid login.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login (row 4) @master @regression @datadriven @web" classname="web\data-driven-login.spec.ts" time="7.594">
+<system-out>
+<![CDATA[✅ Data-driven login case completed: Invalid login.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid login (row 5) @master @regression @datadriven @web" classname="web\data-driven-login.spec.ts" time="9.741">
+<system-out>
+<![CDATA[✅ Data-driven login case completed: Invalid login.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\end-to-end-shopping.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="23.068" errors="0">
+<testcase name="End-to-end customer shopping journey @master @regression @end-to-end @web" classname="web\end-to-end-shopping.spec.ts" time="23.068">
+<system-out>
+<![CDATA[✅ End-to-end shopping journey completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\invalid-login.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="17.038" errors="0">
+<testcase name="Invalid customer login @master @regression @web" classname="web\invalid-login.spec.ts" time="17.038">
+<system-out>
+<![CDATA[✅ Invalid customer login was rejected.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\product-search.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.738" errors="0">
+<testcase name="Search for a known product @master @sanity @regression @web" classname="web\product-search.spec.ts" time="7.738">
+<system-out>
+<![CDATA[✅ Product search completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web\valid-login.spec.ts" timestamp="2026-10-22T09:33:34.135Z" hostname="chromium" tests="1" failures="0" skipped="0" time="8.217" errors="0">
+<testcase name="Valid customer login @master @sanity @regression @web" classname="web\valid-login.spec.ts" time="8.217">
+<system-out>
+<![CDATA[✅ Customer login completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
