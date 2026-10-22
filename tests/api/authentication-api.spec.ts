@@ -28,6 +28,7 @@ test.describe("FakeStore Authentication API Tests", () => {
     });
 
     expect(response.status(), "Valid credentials should return HTTP 201").toBe(201);
+    console.log("API URL:", response.url());
 
     const body = await response.json();
     expect(body).toHaveProperty("token");
