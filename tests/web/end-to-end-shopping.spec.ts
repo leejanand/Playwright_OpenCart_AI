@@ -2,7 +2,7 @@ import { RandomDataUtil } from "../../utils/dataGenerator";
 import { Helper } from "../../utils/helper";
 import { expect, test } from "../../fixtures/pageFixtures";
 
-test("End-to-end customer shopping journey @master @regression @end-to-end @web", async ({
+test("End-to-end customer shopping journey @master @regression @e2e @web", async ({
   homePage,
   registerPage,
   accountPage,

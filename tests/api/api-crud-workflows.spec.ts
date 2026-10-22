@@ -17,7 +17,7 @@ test.describe("FakeStore API CRUD Workflows", () => {
   // Product - Create, Update, Delete
   // ---------------------------------------------------------
 
-  test("Product create-update-delete workflow @master @regression @end-to-end @api", async ({
+  test("Product create-update-delete workflow @master @regression @e2e @api", async ({
     request,
   }) => {
     const payload = RandomDataUtil.generateProductPayload();
@@ -52,7 +52,7 @@ test.describe("FakeStore API CRUD Workflows", () => {
   // User - Create, Update, Delete
   // ---------------------------------------------------------
 
-  test("User create-update-delete workflow @master @regression @end-to-end @api", async ({
+  test("User create-update-delete workflow @master @regression @e2e @api", async ({
     request,
   }) => {
     const payload = RandomDataUtil.generateUserPayload();
@@ -85,7 +85,7 @@ test.describe("FakeStore API CRUD Workflows", () => {
   // Cart - Create, Update, Delete
   // ---------------------------------------------------------
 
-  test("Cart create-update-delete workflow @master @regression @end-to-end @api", async ({
+  test("Cart create-update-delete workflow @master @regression @e2e @api", async ({
     request,
   }) => {
     const payload = RandomDataUtil.generateCartPayload(USER_ID);
