@@ -1,9 +1,10 @@
 import { expect, test } from "@playwright/test";
 import dotenv from "dotenv";
+import process from "process";
 import { Routes } from "../../api/endpoints/routes";
 import { RandomDataUtil } from "../../utils/dataGenerator";
 
-dotenv.config({override: true});
+dotenv.config();
 
 test.describe("FakeStore Authentication API Tests", () => {
   // ---------------------------------------------------------
