@@ -1,21 +1,21 @@
 
 export const Routes = {
 
-    BASE_URL: 'https://fakestoreapi.com',
+    BASE_URL:'https://fakestoreapi.com',
 
     // =========================
     // Product Routes
     // =========================
 
-    GET_ALL_PRODUCTS: '/products',
-    GET_PRODUCT_BY_ID: '/products/{id}',
-    GET_PRODUCTS_WITH_LIMIT: '/products?limit={limit}',
-    GET_PRODUCTS_SORTED: '/products?sort={order}',
-    GET_ALL_CATEGORIES: '/products/categories',
-    GET_PRODUCTS_BY_CATEGORY: '/products/category/{category}',
-    CREATE_PRODUCT: '/products',
-    UPDATE_PRODUCT: '/products/{id}',
-    DELETE_PRODUCT: '/products/{id}',
+    GET_ALL_PRODUCTS:'/products',
+    GET_PRODUCT_BY_ID:'/products/{id}',
+    GET_PRODUCTS_WITH_LIMIT:'/products?limit={limit}',
+    GET_PRODUCTS_SORTED:'/products?sort={order}',
+    GET_ALL_CATEGORIES:'/products/categories',
+    GET_PRODUCTS_BY_CATEGORY:'/products/category/{category}',
+    CREATE_PRODUCT:'/products',
+    UPDATE_PRODUCT:'/products/{id}',
+    DELETE_PRODUCT:'/products/{id}',
 
     // =========================
     // User Routes
@@ -47,6 +47,6 @@ export const Routes = {
     // Authentication Routes
     // =========================
 
-    AUTH_LOGIN: '/auth/login'
+    AUTH_LOGIN:'/auth/login'
 }
 
