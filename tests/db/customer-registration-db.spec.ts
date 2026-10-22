@@ -13,7 +13,7 @@ type CustomerRecord = {
   date_added: Date | string;
 };
 
-test("Register and verify customer in Admin and MySQL @master @regression @end-to-end @db", async ({
+test("Register and verify customer in Admin and MySQL @master @regression @e2e @db", async ({
   homePage,
   registerPage,
   adminCustomerPage,
