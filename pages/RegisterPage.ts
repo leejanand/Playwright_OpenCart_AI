@@ -5,6 +5,7 @@ export interface RegistrationDetails {
   firstName: string;
   lastName: string;
   email: string;
+  telephone: string;
   password: string;
 }
 
@@ -15,7 +16,9 @@ export class RegisterPage {
   private readonly firstNameField: Locator;
   private readonly lastNameField: Locator;
   private readonly emailField: Locator;
+  private readonly telephoneField: Locator;
   private readonly passwordField: Locator;
+  private readonly passwordConfirmField: Locator;
   private readonly privacyPolicyCheckbox: Locator;
   private readonly continueButton: Locator;
   private readonly accountCreatedHeading: Locator;
@@ -27,7 +30,9 @@ export class RegisterPage {
     this.firstNameField = page.getByPlaceholder("First Name");
     this.lastNameField = page.getByPlaceholder("Last Name");
     this.emailField = page.getByPlaceholder("E-Mail");
-    this.passwordField = page.getByPlaceholder("Password");
+    this.telephoneField = page.getByPlaceholder("Telephone", { exact: true });
+    this.passwordField = page.getByPlaceholder("Password", { exact: true });
+    this.passwordConfirmField = page.getByPlaceholder("Password Confirm", { exact: true });
     this.privacyPolicyCheckbox = page.getByRole("checkbox").last();
     this.continueButton = page.getByRole("button", { name: "Continue", exact: true });
     this.accountCreatedHeading = page.getByRole("heading", {
@@ -53,7 +58,13 @@ export class RegisterPage {
       await this.firstNameField.fill(details.firstName);
       await this.lastNameField.fill(details.lastName);
       await this.emailField.fill(details.email);
+      if (await this.telephoneField.count()) {
+        await this.telephoneField.fill(details.telephone);
+      }
       await this.passwordField.fill(details.password);
+      if (await this.passwordConfirmField.count()) {
+        await this.passwordConfirmField.fill(details.password);
+      }
       await this.privacyPolicyCheckbox.check();
       await this.continueButton.click();
     } catch (error) {

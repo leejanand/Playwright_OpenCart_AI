@@ -20,6 +20,7 @@ test("Customer registration @master @sanity @regression @web", async ({
       firstName: customer.firstName,
       lastName: customer.lastName,
       email,
+      telephone: customer.telephone,
       password: customer.password,
     });
     expect(await registerPage.isAccountCreatedDisplayed()).toBeTruthy();

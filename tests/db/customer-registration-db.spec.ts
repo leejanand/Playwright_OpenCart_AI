@@ -45,6 +45,7 @@ test("Register and verify customer in Admin and MySQL @master @regression @end-t
         firstName: customer.firstName,
         lastName: customer.lastName,
         email: customer.email,
+        telephone: customer.telephone,
         password: customer.password,
       });
       expect(await registerPage.isAccountCreatedDisplayed()).toBeTruthy();

@@ -13,9 +13,12 @@ export class HomePage {
     this.page = page;
 
     // Initialize locators with CSS selectors
-    this.accountMenu = page
+    const accountDropdown = page
       .locator('[role="button"][data-bs-toggle="dropdown"]')
       .filter({ hasText: "My Account" });
+    this.accountMenu = accountDropdown
+      .or(page.getByRole("link", { name: /My Account/ }).first())
+      .first();
     this.searchField = page.getByRole("textbox", { name: "Search" });
     this.featuredHeading = page.getByRole("heading", { name: "Featured" });
   }

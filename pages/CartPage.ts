@@ -45,7 +45,7 @@ export class CartPage {
    * @returns Promise<string> - Displayed unit price
    */
   async getProductUnitPrice(productName: string): Promise<string> {
-    return this.productRow(productName).getByRole("cell").nth(3).innerText();
+    return this.productRow(productName).getByRole("cell").nth(-2).innerText();
   }
 
   /**
@@ -54,7 +54,7 @@ export class CartPage {
    * @returns Promise<string> - Displayed line total
    */
   async getProductLineTotal(productName: string): Promise<string> {
-    return this.productRow(productName).getByRole("cell").nth(4).innerText();
+    return this.productRow(productName).getByRole("cell").last().innerText();
   }
 
   /**

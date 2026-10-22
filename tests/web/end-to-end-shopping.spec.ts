@@ -21,6 +21,7 @@ test("End-to-end customer shopping journey @master @regression @end-to-end @web"
       firstName: customer.firstName,
       lastName: customer.lastName,
       email,
+      telephone: customer.telephone,
       password: customer.password,
     });
     expect(await registerPage.isAccountCreatedDisplayed()).toBeTruthy();

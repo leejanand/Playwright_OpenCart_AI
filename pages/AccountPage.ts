@@ -10,7 +10,7 @@ export class AccountPage {
   constructor(page: Page) {
     this.page = page;
     this.accountHeading = page
-      .getByRole("main")
+      .locator("#content")
       .getByRole("heading", { name: "My Account", exact: true });
   }
 
