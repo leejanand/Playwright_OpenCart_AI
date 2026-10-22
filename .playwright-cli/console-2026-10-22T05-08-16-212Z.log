@@ -1,9 +1,0 @@
-[    3018ms] [WARNING] One of your code blocks includes unescaped HTML. This is a potentially serious security risk. @ https://fakestoreapi.com/js/highlight.min.js:262
-[    3018ms] [WARNING] https://github.com/highlightjs/highlight.js/wiki/security @ https://fakestoreapi.com/js/highlight.min.js:263
-[    3018ms] [WARNING] The element with unescaped HTML: @ https://fakestoreapi.com/js/highlight.min.js:264
-[    3018ms] [WARNING] JSHandle@node @ https://fakestoreapi.com/js/highlight.min.js:265
-[    3938ms] [WARNING] One of your code blocks includes unescaped HTML. This is a potentially serious security risk. @ https://fakestoreapi.com/js/highlight.min.js:262
-[    3938ms] [WARNING] https://github.com/highlightjs/highlight.js/wiki/security @ https://fakestoreapi.com/js/highlight.min.js:263
-[    3938ms] [WARNING] The element with unescaped HTML: @ https://fakestoreapi.com/js/highlight.min.js:264
-[    3939ms] [WARNING] JSHandle@node @ https://fakestoreapi.com/js/highlight.min.js:265
-[    7191ms] [ERROR] Failed to load resource: the server responded with a status of 523 () @ https://analytics.fakestoreapi.com/matomo.php?action_name=Fake%20Store%20API&idsite=1&rec=1&r=884019&h=10&m=38&s=20&url=https%3A%2F%2Ffakestoreapi.com%2F&_id=371433d3aa5d6544&_idn=1&send_image=0&_refts=0&pv_id=yI38WF&pf_net=64&pf_srv=487&pf_tfr=2&pf_dm1=2412&uadata=%7B%22formFactors%22%3A%5B%22Desktop%22%5D%2C%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Google%20Chrome%22%2C%22version%22%3A%22155.0.8059.85%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22155.0.8059.85%22%7D%2C%7B%22brand%22%3A%22Not(A%3ABrand%22%2C%22version%22%3A%2224.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%2210.0.0%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=1280x720:0
